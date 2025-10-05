@@ -7,3 +7,5 @@
 ### RODAR O PROJETO:
 	-> npm run dev
 
+### ESSE COMANDO CRIA A ESTRUTURA BASICA DO REACT:
+	-> rafce
