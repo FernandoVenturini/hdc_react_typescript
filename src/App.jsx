@@ -7,6 +7,8 @@ import Descricao from './components/Descricao';
 import Cachorro from './components/Cachorro';
 import Counter from './components/Counter';
 import UseInfoForm from './components/UseInfoForm';
+import Button from './components/Button';
+import PaiFunction from './components/PaiFunction';
 
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
 		<Cachorro nome="Rex" raca="Pastor Alemao"/>
 		<Counter />
 		<UseInfoForm />
+		<Button />
+		<PaiFunction />
     </>
   );
 };
