@@ -9,6 +9,9 @@ import Counter from './components/Counter';
 import UseInfoForm from './components/UseInfoForm';
 import Button from './components/Button';
 import PaiFunction from './components/PaiFunction';
+import RenderCondicional from './components/RenderCondicional';
+import LoginButton from './components/LoginButton';
+import Form from './components/Form';
 
 
 function App() {
@@ -25,6 +28,10 @@ function App() {
 		<UseInfoForm />
 		<Button />
 		<PaiFunction />
+		<Form />
+		<RenderCondicional user="Fernando"/>
+		<LoginButton loggedIn={false}/>
+		<LoginButton loggedIn={true}/>
     </>
   );
 };
