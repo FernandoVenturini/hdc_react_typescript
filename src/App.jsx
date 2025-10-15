@@ -12,6 +12,8 @@ import PaiFunction from './components/PaiFunction';
 import RenderCondicional from './components/RenderCondicional';
 import LoginButton from './components/LoginButton';
 import Form from './components/Form';
+import Warning from './components/Warning';
+import NumberList from './components/NumberList';
 
 
 function App() {
@@ -32,6 +34,8 @@ function App() {
 		<RenderCondicional user="Fernando"/>
 		<LoginButton loggedIn={false}/>
 		<LoginButton loggedIn={true}/>
+		<Warning warning="Temos um warning!"/>
+		<NumberList numbers={[1, 2, 3, 4, 5]}/>
     </>
   );
 };
