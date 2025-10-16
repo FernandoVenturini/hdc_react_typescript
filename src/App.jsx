@@ -1,4 +1,5 @@
 import './App.css';
+
 import Welcome from './components/Welcome';
 import BomDia from './components/BomDia';
 import Pai from './components/Pai';
@@ -14,6 +15,8 @@ import LoginButton from './components/LoginButton';
 import Form from './components/Form';
 import Warning from './components/Warning';
 import NumberList from './components/NumberList';
+import BotaoEstilizado from './components/BotaoEstilizado';
+import BotaoAzul from './components/BotaoAzul';
 
 
 function App() {
@@ -36,6 +39,8 @@ function App() {
 		<LoginButton loggedIn={true}/>
 		<Warning warning="Temos um warning!"/>
 		<NumberList numbers={[1, 2, 3, 4, 5]}/>
+		<BotaoEstilizado />
+		<BotaoAzul />
     </>
   );
 };
