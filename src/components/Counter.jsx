@@ -3,15 +3,16 @@ import React from 'react'
 import { useState } from 'react';
 
 const Counter = () => {
-	const [count, setCount] = useState(0);
+	const [counter, setCounter] = useState(0);
 
   return (
 	<div>
-		<p>Counter: {count}</p>
-		<button onClick={() => setCount(count - 1)}>DECREASE</button>
-		<button onClick={() => setCount(count + 1)}>INCREASE</button>
+		<p>Voce clicou {counter} vezes no botao!</p>
+		
+		<button onClick={() => setCounter(counter + 1)}>INCREASE</button>
+		<button onClick={() => setCounter(counter - 1)}>DECREASE</button>
 	</div>	
   )
 }
 
-export default Counter
+export default Counter;
