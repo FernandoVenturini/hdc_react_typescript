@@ -23,6 +23,7 @@ import { Component } from 'react';
 import ComponentFilho from './contexts/ComponentFilho';
 import { MenuContextoProvider } from './contexts/MeuContexto';
 import Contador from './components/Contador';
+import DisplayWindowSize from './components/DisplayWindowSize';
 
 
 function App() {
@@ -58,6 +59,7 @@ function App() {
 			<Greeting name="Joao!" />
 			<TaskList tasks={[1, 'Hora de Codar']} />
 			<Contador />
+			<DisplayWindowSize />
 
 			<hr />
 
