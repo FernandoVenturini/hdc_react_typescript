@@ -22,6 +22,7 @@ import TaskList from './components/TaskList';
 import { Component } from 'react';
 import ComponentFilho from './contexts/ComponentFilho';
 import { MenuContextoProvider } from './contexts/MeuContexto';
+import Contador from './components/Contador';
 
 
 function App() {
@@ -56,6 +57,7 @@ function App() {
 			<BotaoAzul />
 			<Greeting name="Joao!" />
 			<TaskList tasks={[1, 'Hora de Codar']} />
+			<Contador />
 
 			<hr />
 
