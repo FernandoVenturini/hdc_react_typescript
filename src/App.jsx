@@ -24,6 +24,7 @@ import ComponentFilho from './contexts/ComponentFilho';
 import { MenuContextoProvider } from './contexts/MeuContexto';
 import Contador from './components/Contador';
 import DisplayWindowSize from './components/DisplayWindowSize';
+import Container from './components/Container';
 
 
 function App() {
@@ -60,6 +61,10 @@ function App() {
 			<TaskList tasks={[1, 'Hora de Codar']} />
 			<Contador />
 			<DisplayWindowSize />
+			<Container>
+				<h1>Titulo da secao</h1>
+				<p>Este e o meu subtitulo</p>
+			</Container>
 
 			<hr />
 
