@@ -23,7 +23,9 @@ const useOnlineStatus = () => {
 };
 
 const OnlineStatusIndicator = () => { // Componente que usa o hook personalizado
+
 	const isOnLine = useOnlineStatus(); // Usa o hook personalizado para obter o status de conexão
+	
 	return ( // Renderiza o status de conexão
 		<div>
 			{isOnLine ? 'Online' : 'Offline'} {/* Exibe o status baseado no estado */}
